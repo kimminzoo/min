@@ -1,0 +1,22 @@
+<!-- prompt() 함수를 통해 수식을 입력받아 계산 결과를 출력해보세요.
+    Hint. 수식 계산은 eval()함수를 활용하면 아주 편합니다. (구글링~) -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>동일이의 계산기</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <h1>동일이의 계산기</h1>
+    <hr>
+    
+    <script>
+    var math_string = prompt("수식을 입력해주세요.", "");
+    document.write(math_string + " = " + eval(math_string));
+
+    </script>
+</body>
+</html>
